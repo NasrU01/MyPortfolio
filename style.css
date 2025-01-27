@@ -241,6 +241,23 @@ span{
     color: white;
     font-size: 12px;
 }
+
+@media screen and (max-width:1024px) {
+    .container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .gallery{
+        width: 100%;
+        padding-inline: 12px;
+        grid-template-rows: 220px;
+    }
+    .box{
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    
+}
  
 
  
